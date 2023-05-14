@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@400;500;600;700;800;900&family=Inter:wght@400;500;600;700;800&family=Noto+Sans+KR:wght@400;500;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body {
+  overflow-x: hidden;
+  margin: 0;
+  line-height: 1.5;
+  font-weight: 400;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+.discord {
+  filter: invert(57%) sepia(99%) saturate(3043%) hue-rotate(181deg) brightness(102%) contrast(101%);
+}
+
+.github {
+  filter: invert(59%) sepia(98%) saturate(273%) hue-rotate(87deg) brightness(96%) contrast(83%);
+}
+
+.insta {
+  filter: invert(64%) sepia(45%) saturate(5889%) hue-rotate(248deg) brightness(100%) contrast(103%);
+}
