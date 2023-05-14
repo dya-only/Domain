@@ -5,7 +5,7 @@ import Github from './assets/svgs/github.svg'
 import Discord from './assets/svgs/discord.svg'
 import Instagram from './assets/svgs/instagram.svg'
 import Filled from './assets/imgs/filled.png'
-import OutlinedFlat from './assets/imgs/outlined_flat.png'
+// import OutlinedFlat from './assets/imgs/outlined_flat.png'
 
 function App() {
 
@@ -33,11 +33,11 @@ function App() {
           <div />
 
           <div className='flex justify-center items-center mt-2'>
-            <a className='flex flex-col items-center ml-16' href="" target='_blank'>
+            <a className='flex flex-col items-center ml-16' href="https://discord.com/users/884954874943520788" target='_blank'>
               <img className='discord w-8 h-8 text-red-400 transition duration-300 hover:scale-125' src={Discord} alt="" />
               <div className='font-[Inter] font-[400] text-sm text-[#00A7FF]'>Discord</div>
             </a>
-            <a className='flex flex-col items-center ml-16' href="" target='_blank'>
+            <a className='flex flex-col items-center ml-16' href="https://instagram.com/dy4code" target='_blank'>
               <img className='insta w-8 h-8 text-red-400 transition duration-300 hover:scale-125' src={Instagram} alt="" />
               <div className='font-[Inter] font-[400] text-sm text-[#F164FF]'>Instagram</div>
             </a>
