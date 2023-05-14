@@ -14,7 +14,7 @@ function App() {
       <header className='w-screen h-screen flex flex-col justify-center items-center'>
         <div className='w-screen flex justify-around items-center'>
           <div className='flex justify-center items-center mb-2'>
-            <a className='flex flex-col items-center mr-16' href="https://dyacode.kro.kr" target='_blank'>
+            <a className='flex flex-col items-center mr-16' href="https://me.dyacode.kro.kr" target='_blank'>
               <FontAwesomeIcon className='w-8 h-8 text-red-400 transition duration-300 hover:scale-125' icon={faHeart} />
               <div className='font-[Inter] font-[400] text-sm text-red-400'>Portfolio</div>
             </a>
