@@ -8,7 +8,8 @@ export default {
     extend: {
       fontFamily: {
         Noto: ["Noto Sans KR", "sans-serif"],
-        Inter: ["Inter", "sans-serif"]
+        Inter: ["Inter", "sans-serif"],
+        Junegull: ["Junegull", "sans-serif"]
       }
     },
   },
