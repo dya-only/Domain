@@ -26,7 +26,7 @@ function App() {
             <div className='w-full flex justify-center items-center font-[Junegull] lg:text-4xl text-3xl text-blue-600'>Learning DevOps</div>
           </div>
 
-          <div className='w-[100%] flex justify-center items-center lg:mb-0 mb-4'>
+          <div className='lg:hidden w-[100%] flex justify-center items-center lg:mb-0 mb-4'>
             <a className='flex flex-col items-center mr-16 lg:mr-8' href="https://me.dyacode.kro.kr" target='_blank'>
               <FontAwesomeIcon className='w-8 h-8 text-white bg-red-400 p-2 rounded-xl transition duration-300 hover:scale-110' icon={faHeart} />
               <div className='font-[Inter] font-[400] text-sm text-red-400'>Portfolio</div>
@@ -37,7 +37,7 @@ function App() {
               <div className='font-[Inter] font-[400] text-sm text-[#50C878]'>Github</div>
             </a>
           </div>
-          <div className='w-[100%] flex justify-center items-center'>
+          <div className='lg:hidden w-[100%] flex justify-center items-center'>
             <a className='flex flex-col items-center mr-16 lg:mr-8' href="https://discord.com/users/884954874943520788" target='_blank'>
               <img className='invert w-12 h-12 bg-[#ff5800] rounded-xl p-2 transition duration-300 hover:scale-110' src={Discord} alt="" />
               <div className='font-[Inter] font-[400] text-sm text-[#00A7FF]'>Discord</div>
