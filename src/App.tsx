@@ -5,6 +5,7 @@ import Github from './assets/svgs/github.svg'
 import Discord from './assets/svgs/discord.svg'
 import Instagram from './assets/svgs/instagram.svg'
 import Monterey from './assets/imgs/monterey.jpg'
+import Profile from './assets/imgs/profile.png'
 // import Filled from './assets/imgs/filled.png'
 
 function App() {
@@ -20,7 +21,8 @@ function App() {
             <div className='rounded-full w-4 h-4 mr-2 bg-yellow-400' />
             <div className='rounded-full w-4 h-4 bg-green-400' />
           </div>
-          <div className='flex flex-col justify-center mt-8 mb-8'>
+          <div className='flex flex-col items-center justify-center mt-8'>
+            <img className='w-[250px] h-[250px] mb-6 rounded-full border-[16px] border-white shadow-xl' src={Profile} alt="" />
             <div className='w-full flex justify-center items-center font-[Junegull] lg:text-4xl text-3xl text-blue-400'>GBSW STUDENT</div>
             <div className='w-full flex justify-center items-center font-[Junegull] lg:text-4xl text-3xl text-blue-500'>FULLSTACK DEVELOPER</div>
             <div className='w-full flex justify-center items-center font-[Junegull] lg:text-4xl text-3xl text-blue-600'>Learning DevOps</div>
@@ -51,7 +53,6 @@ function App() {
         </div>
         
         <div className='z-20 hidden bg-white lg:flex flex-col justify-center items-center pl-8 pr-8 pb-8 pt-16 lg:-mt-10 lg:ml-56 border-[0.4px] rounded-2xl shadow-xl'>
-
           <div className='flex lg:flex-nowrap flex-wrap justify-start items-center'>
             <a className='flex flex-col items-center mr-8' href="https://me.dyacode.kro.kr" target='_blank'>
               <FontAwesomeIcon className='w-8 h-8 text-white bg-red-400 p-2 rounded-xl transition duration-300 hover:scale-110' icon={faHeart} />
