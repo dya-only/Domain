@@ -5,9 +5,9 @@ import Github from './assets/svgs/github.svg'
 import Discord from './assets/svgs/discord.svg'
 import Instagram from './assets/svgs/instagram.svg'
 import Notion from './assets/svgs/notion.svg'
-// import Monterey from './assets/imgs/monterey.jpg'
+import Monterey from './assets/imgs/monterey.jpg'
 // import Sonoma from './assets/imgs/sonoma.jpg'
-import Bigsur from './assets/imgs/bigsur.jpg'
+// import Bigsur from './assets/imgs/bigsur.jpg'
 import Profile from './assets/imgs/logo.png'
 
 function App() {
@@ -15,7 +15,7 @@ function App() {
   return (
     <>
       <header className='w-screen h-screen flex flex-col justify-center items-center'>
-        <img className='z-0 object-cover w-screen h-screen fixed brightness-75 blur-2xl' src={Bigsur} alt="" />
+        <img className='z-0 object-cover w-screen h-screen fixed brightness-75 blur-2xl' src={Monterey} alt="" />
         <div className='-z-10 w-screen h-screen bg-gray-700 fixed' />
 
         <div className='z-30 bg-white/80 backdrop-blur-2xl flex flex-col justify-center items-start pl-5 pr-8 pb-8 pt-5 lg:-ml-[200px] border-[0.4px] rounded-2xl shadow-xl'>
@@ -29,8 +29,8 @@ function App() {
               <img className='z-10 w-[120px]' src={Profile} />
             </div>
             <div className='w-full flex justify-center items-center font-[Junegull] lg:text-4xl text-3xl text-blue-400'>GBSW STUDENT</div>
-            <div className='w-full flex justify-center items-center font-[Junegull] lg:text-4xl text-3xl text-blue-500'>FULLSTACK DEVELOPER</div>
-            <div className='w-full flex justify-center items-center font-[Junegull] lg:text-4xl text-3xl text-blue-600'>Learning DevOps</div>
+            <div className='w-full flex justify-center items-center font-[Junegull] lg:text-4xl text-3xl text-blue-500'>STUDENT DEVELOPER</div>
+            <div className='w-full flex justify-center items-center font-[Junegull] lg:text-4xl text-3xl text-blue-600'>I DEVELOP WEB & APP</div>
           </div>
 
           {/* SM */}
