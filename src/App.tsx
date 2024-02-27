@@ -35,12 +35,12 @@ function App() {
 
           {/* SM */}
           <div className='lg:hidden w-[100%] flex justify-center items-center lg:mb-0 mb-4 mt-4'>
-            <a className='flex flex-col items-center mr-16 lg:mr-8' href="https://pf.dyacode.kro.kr" target='_blank'>
+            <a className='flex flex-col items-center mr-16 lg:mr-8' href="https://pf.dya.codes" target='_blank'>
               <FontAwesomeIcon className='w-8 h-8 text-white bg-red-400 p-2 rounded-xl transition duration-300 hover:scale-110' icon={faHeart} />
               <div className='font-[Inter] font-[400] text-sm text-red-400'>Portfolio</div>
             </a>
 
-            <a className='flex flex-col items-center mr-16 lg-mr-8' href="https://notion.dyacode.kro.kr" target='_blank'>
+            <a className='flex flex-col items-center mr-16 lg-mr-8' href="https://notion.dya.codes" target='_blank'>
               <img className='invert w-12 h-12 bg-[#aaaaaa] p-2 rounded-xl transition duration-300 hover:scale-110' src={Notion} alt="" />
               <div className='font-[Inter] font-[400] text-sm text-[#696969]'>Notion</div>
             </a>
@@ -66,12 +66,12 @@ function App() {
         {/* XS, LG, MD */}
         <div className='z-20 hidden bg-white/80 backdrop-blur-2xl lg:flex flex-col justify-center items-center pl-8 pr-8 pb-8 pt-16 lg:-mt-10 lg:ml-56 border-[0.4px] rounded-2xl shadow-xl'>
           <div className='flex lg:flex-nowrap flex-wrap justify-start items-center'>
-            <a className='flex flex-col items-center mr-8' href="http://pf.dyacode.kro.kr" target='_blank'>
+            <a className='flex flex-col items-center mr-8' href="http://pf.dya.codes" target='_blank'>
               <FontAwesomeIcon className='w-8 h-8 text-white bg-red-400 p-2 rounded-xl transition duration-300 hover:scale-110' icon={faHeart} />
               <div className='font-[Inter] font-[400] text-sm text-red-400'>Portfolio</div>
             </a>
 
-            <a className='flex flex-col items-center mr-8' href="http://notion.dyacode.kro.kr" target='_blank'>
+            <a className='flex flex-col items-center mr-8' href="http://notion.dya.codes" target='_blank'>
               <img className='invert w-12 h-12 bg-[#aaaaaa] p-2 rounded-xl transition duration-300 hover:scale-110' src={Notion} alt="" />
               <div className='font-[Inter] font-[400] text-sm text-[#696969]'>Notion</div>
             </a>
